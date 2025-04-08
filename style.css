@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(135deg, #20c997, #2a5298);
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.calculator-box {
+    background: linear-gradient(135deg, #20c997, #2a5298);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    width: 350px;
+}
+
+.calculator-box h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-select,
+.form-control,
+.btn {
+    margin-top: 10px;
+}
+
+.result {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #f0ad4e;
+}
+
+.footer-text {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #aaa;
+    text-align: center;
+}
