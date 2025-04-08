@@ -5,10 +5,11 @@ body {
 }
 
 .calculator-box {
-    background: rgba(255, 255, 255, 0.05); /* light glass effect */
-    border-radius: 1rem;
-    width: 100%;
-    max-width: 400px;
+    background: linear-gradient(135deg, #20c997, #2a5298);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    width: 350px;
 }
 
 .result {
